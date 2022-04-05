@@ -4,7 +4,7 @@ body{
     min-width: 1080px;
 }
 
-main{
+.home{
     width:100%;
     height:520px;
     background-image: url("../img/my_photo.png");
@@ -46,7 +46,7 @@ ol.top-nav{
 /*  ホーム  */
 .home__name{
     width:50%;
-    height:calc(100vh-50px);
+    height:470px;
     text-align: left;
     padding-top: 32px;
     padding-left: 96px;
@@ -66,4 +66,184 @@ h3{
 
     
     font-size: 32px;
+}
+
+/*  About   */
+#about{
+    width:100%;
+    height:400px;
+    background-image: url("../img/laptop-img-2.png");
+    background-position: 560px -40px;
+    background-size:720px;
+    background-repeat: no-repeat;
+}
+
+.about__text{
+    margin-left: 40px;
+    width:560px;
+}
+
+.about__text-title{
+    font-size: 32px;
+    margin: 0px 0 24px;
+    padding-top: 48px;
+}
+
+.about__text-list{
+    font-size: 18px;
+    margin: 16px 0 16px;
+}
+
+.about__text-item{
+    font-size: 16px;
+    margin: 16px 0px 16px;
+}
+
+.about__text-email{
+    font-size: 16px;
+    margin: 16px 0 16px;
+}
+
+.about__text-sns{
+    display: flex;
+}
+
+.sns-icon{
+    margin-top: 16px;
+    margin-right: 32px;
+}
+
+/*  project */
+#project{
+    display: block;
+    width: 100%;
+    height:1080px
+}
+
+.project-gray{
+    width: 100%;
+    height: 540px;
+    background:radial-gradient(silver ,gray);
+    color:white;
+}
+
+.project__title{
+    color:white;
+    font-size: 32px;
+    padding-top: 40px;
+    margin-bottom: 24px;
+    margin-left: 40px;
+}
+
+.project__content{
+    margin: 0px 40px 0px 40px;
+    display: flex;
+}
+
+.project__content img{
+    width:480px;
+    margin-right: 40px;
+}
+
+.project__text-title{
+    padding-top: 40px;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.project__text-note{
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 24px;
+}
+
+.project__text-test{
+    font-size:18px;
+    margin-bottom: 18px;
+}
+
+.project__text-email{
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.project__text-pass{
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.project__text-button{
+    display: flex;
+}
+
+
+.project__button{
+    width:80px;
+    height:32px;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 24px;
+    padding-top: 8px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.button-white{
+    border-color: gray;
+    color :gray;
+    background-color: white;
+}
+
+.button-gray{
+    background-color: gray;
+    color:white;
+}
+
+
+.project-white{
+    width: 100%;
+    height: 540px;
+    background-color:white;
+    color: gray;
+}
+
+/* フッター */
+footer{
+    width:100%;
+    height:180px;
+    background-color: rgb(33, 33, 33);
+    color:white;
+}
+
+.contact{
+    margin-left: 40px;
+    font-size: 12px;
+}
+
+.contact__title{
+    padding-top: 48px;
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+
+.contact img{
+    width:16px;
+    margin-right: 8px;
+}
+
+.contact__phone{
+    margin: 8px 0px 8px;
+}
+
+.contact__mail{
+    margin: 16px 0px 40px;
+}
+
+.copy{
+    text-align: center;
+    width:100%;
+    height:38px;
+    background-color: gray;
+    padding-top: 12px;
+    font-size: 8px;
 }
