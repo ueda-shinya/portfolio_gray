@@ -300,9 +300,9 @@ footer{
 
     .home{
         width:100%;
-        height:680px;
+        height:720px;
         background:url("../img/my_photo.png"),radial-gradient(silver ,gray);
-        background-size: 360px;
+        background-size: 400px;
         background-repeat: no-repeat;
         background-position: bottom center;
         color:white;
